@@ -1,18 +1,7 @@
 ---
-layout: page
+layout: page-about-contact
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I’m Sara - a product & industrial designer based in Lisbon. I’m currently studying digital design in Belas-Artes, learning how to create well-crafted and meaningful products for the right users. Take a look through my work below. If you want to say hello, or chat about a new project, feel free to get in touch.

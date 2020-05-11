@@ -1,0 +1,20 @@
+<header>
+  <div class="container">
+
+    <div class="part-1">
+      <a href=/portfolio/ title="go to the homepage"> 
+        <img src="assets/img/sb.png" alt="letter S"/>
+      </a>
+    </div>
+    <div class="part-2">
+      <nav>
+        <ul>
+          {% for navlinks in site.data.samplelist.docs %}
+          <li><a href="{{site.baseurl}}/{{ navlinks.title }}">{{ navlinks.title }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+</header>

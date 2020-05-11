@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<aricle>
+
+<section class="cover">
+			<div class="title">
+				{% if page.title == "About" %}
+				<h1>Hi, I'm Sara</h1>
+				{% endif %}
+
+				{% if page.title == "Contact" %}
+				<h1>Get in touch</h1>
+				{% endif %}
+				
+			</div>
+		</section>
+
+		<section class="intro">
+			<h3>{{ content }}</h3>
+			
+			{% if page.title == "About" %}
+			<a href="assets/pdf/Curriculum Vitae_serif_en.pdf" target="_blank" class="button">See my CV</a>
+			{% endif %}
+
+			{% if page.title == "Contact" %}
+			<a href="mailto:saramcdbarros@gmail.com" title="send me an e-mail" target="_blank" class="button">Email me</a>
+			{% endif %}
+</section>
+
+</aricle>
