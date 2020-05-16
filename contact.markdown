@@ -1,6 +1,6 @@
 ---
-layout: page-about-contact
-title: contact
+layout: page
+title: Get in touch
 permalink: /contact/
 ---
 

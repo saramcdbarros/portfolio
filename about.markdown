@@ -1,6 +1,6 @@
 ---
-layout: page-about-contact
-title: about
+layout: page
+title: Hi, I'm Sara
 permalink: /about/
 ---
 
