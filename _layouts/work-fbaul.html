@@ -2,18 +2,30 @@
 layout: page-work
 title: "Fbaul Redesign"
 ---
-
 <article class="fbaul">
 				<h2><a id="fbaul">Fbaul’s website redesign</a></h2>
-				
-				<div class="photos">
-					<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-1.png{{ include.image }}" alt="slide 5"/>
-					<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-2.png{{ include.image }}" alt="slide 4"/>
-					<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-3.png{{ include.image }}" alt="slide 3"/>
-					<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-4.png{{ include.image }}" alt="slide 2"/>
-					<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-5.png{{ include.image }}" alt="slide 1"/>
+				<div class="photos">					
+					<picture>
+						<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/fbaul/redesign-1.png{{ include.image }}">
+						<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-105.png{{ include.image }}" alt="slide 5"/>
+					</picture>					
+					<picture>
+						<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/fbaul/redesign-2.png{{ include.image }}">
+						<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-205.png{{ include.image }}" alt="slide 4"/>
+					</picture>					
+					<picture>
+						<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/fbaul/redesign-3.png{{ include.image }}">
+						<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-305.png{{ include.image }}" alt="slide 3"/>
+					</picture>					
+					<picture>
+						<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/fbaul/redesign-4.png{{ include.image }}">
+						<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-405.png{{ include.image }}" alt="slide 2"/>
+					</picture>					
+					<picture>
+						<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/fbaul/redesign-5.png{{ include.image }}">
+						<img src="{{ site.baseurl }}/assets/img/fbaul/redesign-505.png{{ include.image }}" alt="slide 1"/>
+					</picture>
 				</div>
-
 				<div class="description">
 					<div class="part 1">
 						<ul>
@@ -23,8 +35,7 @@ title: "Fbaul Redesign"
 						</ul>
 					</div>
 					<div class="part 2">
-						<p>The goal was to improve the navegation experience of the website, by helping the students finding their timetables in a more intuitive way. For that we had to rethink the information architecture, and reorganize not only the primary navegation menu but also the content of the pages that integrate the user flows of the analysis.</p>
+						<p>{{ content }}</p>
 					</div>
 				</div>
-
 </article>

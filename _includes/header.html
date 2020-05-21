@@ -10,13 +10,9 @@
       <nav>
         <ul>
           {% for navlinks in site.data.samplelist.docs %}
-          <li><a 
-
-            style="{% if page.url == navlinks.url %}color:red;
-            {% endif %}"
-
-            href="{{site.baseurl}}/{{ navlinks.title }}">{{ navlinks.title }}</a></li>
-        
+          <li>
+            <a href="{{site.baseurl}}/{{ navlinks.title }}">{{ navlinks.title }}</a>
+          </li>
         {% endfor %}
         </ul>
       </nav>
