@@ -3,42 +3,45 @@ layout: default
 permalink: /work/
 ---
 
-
 <section class="cover">
-			<div class="title">
-				<h1>My work</h1>
-			</div>
+		<div class="title">
+			<h1>My work</h1>
+		</div>
+
+
+</section>
 
 {% if page.title == "My work" %}
-</section>
-		
-		<section class="intro">
-			
-			<h3>{{ content }}</h3>
 
-			<a href="https://www.behance.net/saramcdbarros" title="visit my behance page" target="_blank" class="button">BEHANCE</a>
-		</section>
+<section class="intro">
+			
+		<h3>{{ content }}</h3>
+		<a href="https://www.behance.net/saramcdbarros" title="visit my behance page" target="_blank" class="button">BEHANCE</a>
+
+</section>
+
 {% endif %}
 
-		<section class="portfmenu">
+<section class="portfmenu">
 		 
-		   	<nav>
-		   		<ul>
-		   			{% for project in site.projects %}  
+		<nav>
+		   	<ul>
+		   		{% for project in site.projects %}  
 				<li>
 					<a href="{{site.baseurl}}/projects/{{project.slug}}/" class="{% if page.url contains project.slug %}current{% endif %}">{{project.title}}</a>
 				</li>
-					{% endfor %}
-				</ul>
-			</nav>
+				{% endfor %}
+			</ul>
+		</nav>
 
- 			<div class="work">
+ 		<div class="work">
 
- 			{%  if page.title != "My work" %}
+ 		{%  if page.title != "My work" %}
  				{{ content }}
- 			{% endif %}
+ 		{% endif %}
 
-		  	</div>
+		</div>
+		
 </section>
 
 

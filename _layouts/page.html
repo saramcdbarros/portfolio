@@ -2,27 +2,22 @@
 layout: default
 ---
 <section class="cover">
-
-				{% if page.title == "Hi, I'm Sara" %}
-				<picture>
-				
-				<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/about/profile-1.png{{ include.image }}">
-				
-				<img src="{{ site.baseurl }}/assets/img/about/profile-105.png{{ include.image }}" alt="profile photo in black & white"/>
-
-				</picture>
-
-				{% endif %}
+	{% if page.title == "Hi, I'm Sara" %}
+		<picture>
+			<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/about/profile-1.png{{ include.image }}">
+			<img src="{{ site.baseurl }}/assets/img/about/profile-105.png{{ include.image }}" alt="profile photo in black & white"/>
+		</picture>
+	{% endif %}
 
 		<div class="title">
 
-				<h1>{{ page.title }}</h1>
-				
+			<h1>{{ page.title }}</h1>
+
 		</div>
 </section>
 
 <section class="intro">
-
+	
 			<h3>{{ content }}</h3>
 
 			{% if page.title == "Hi, I'm Sara" %}

@@ -4,4 +4,4 @@ title: Hi, I'm Sara
 permalink: /about/
 ---
 
-I’m Sara - a product & industrial designer based in Lisbon. I’m currently studying digital design in Belas-Artes, learning how to create well-crafted and meaningful products for the right users. Take a look through my work below. If you want to say hello, or chat about a new project, feel free to get in touch.
+My name is Sara and I’m from Lisbon. I’m a 21 year old designer with a big passion for what I do. I consider myself a detail-oriented and self- starer person. I always try to find the balance in the relationship between people, products, services and technology. And I also try to do that with enthusiasm and discipline.
