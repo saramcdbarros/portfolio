@@ -7,7 +7,7 @@ h1 {
 
 h2, h3, p, li {
 	font-family: $base-font-family;
-	font-color: $dark-color;
+	color: $dark-color;
 }
 h2, h3 {
 	font-weight: bold;
@@ -23,9 +23,9 @@ p, li {
 	font-weight: normal;
 	font-size: 20px;
 	line-weight: 28px;
+	list-style-tpe: none;
 }
 ul {
-	list-style-tpe: none;
 	margin: 0;
 	padding: 0;
 }

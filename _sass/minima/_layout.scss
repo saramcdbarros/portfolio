@@ -44,7 +44,6 @@ nav {
 	ul {
 		display: flex;
 		flex-direction: row;
-		list-style-type: none;
 	}
 	li {
 		list-style-type: none;
@@ -74,14 +73,13 @@ nav {
 		}
 	}
 }
+
 .portfmenu nav {
-	li {;
-		font-weight: bold;
-		padding: 25px
-	}
+	padding: 0 15%;
 	ul {
-		justify-content: center;
-		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	a {
 		color: $dark-color;
@@ -101,6 +99,9 @@ main {
 }
 .description {
 	padding-top: 70%;
+	.part1 li {
+			list-style-type: none;
+	}
 }
 .container {
 	ul {
@@ -135,8 +136,8 @@ main {
 	position: absolute;
 }
 .intro {
-	padding-top: 44px;
-	background-color: 
+	margin: 0;
+	padding-top: 44px; 
 	h3 {
 		font-weight: normal;
 	}
@@ -216,6 +217,9 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 	}
+	.title {
+		top: 400px;
+	}
 }
 
 /**
@@ -240,7 +244,7 @@ footer {
 	}
 	
 	.description {
-		padding-top: 680px;
+		padding-top: 200%;
 	}
 	.cover img {
 		height: 675px;
