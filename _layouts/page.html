@@ -2,7 +2,7 @@
 layout: default
 ---
 <section class="cover">
-	{% if page.title == "Hi, I'm Sara" %}
+	{% if page.title == "Hello!" %}
 		<picture>
 			<source media="(min-width: 600px)" srcset="{{ site.baseurl }}/assets/img/about/profile-1.png{{ include.image }}">
 			<img src="{{ site.baseurl }}/assets/img/about/profile-105.png{{ include.image }}" alt="profile photo in black & white"/>
@@ -20,7 +20,7 @@ layout: default
 	
 			<h3>{{ content }}</h3>
 
-			{% if page.title == "Hi, I'm Sara" %}
+			{% if page.title == "Hello!" %}
 			<a href="https://drive.google.com/file/d/1gCClTraERSgKtHc29CGGSJpemLlzMcFJ/preview" target="_blank" class="button">SEE MY CV</a>
 			{% endif %}
 

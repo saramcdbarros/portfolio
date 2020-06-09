@@ -1,3 +1,7 @@
+/**
+* Basic elements
+*/
+
 h1 {
 	font-family: $title-font-family;
 	color: $background-color;
@@ -30,14 +34,9 @@ ul {
 	padding: 0;
 }
 
-.button {
-	@include button;
-	&:hover {
-		background-color: $accent-color;
-		color: $background-color;
-		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-	}
-}
+/**
+ * Lists
+ */
 
 .description {
 	li {
@@ -50,7 +49,30 @@ ul {
 		color: $background-color;
 		font-weight: bold;
 	}
+	ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 }
+
+/**
+ * Buttons
+ */
+
+.button {
+	@include button;
+	&:hover {
+		background-color: $accent-color;
+		color: $background-color;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+}
+
+/**
+ * Transition
+ */
+
 .text a {
 	color: $primary-color;
 	text-decoration: none;
@@ -62,6 +84,12 @@ ul {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
+
+/**
+ * Images 
+ */
+
 .photos {
 	position: relative;
 	object-fit: cover;
@@ -70,6 +98,11 @@ ul {
 		height: auto;
 	}
 }
+
+/**
+* Animation
+*/
+
 .photos picture {
 	position: absolute;
 	animation: photos 25s infinite;
@@ -85,6 +118,7 @@ ul {
 .photos picture:nth-child(3){animation-delay:10s;}
 .photos picture:nth-child(4){animation-delay:15s;}
 .photos picture:nth-child(5){animation-delay:20s;}
+
 
 @include media-query($on-palm) {
 	h1{

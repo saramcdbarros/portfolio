@@ -4,4 +4,4 @@ title: My work
 permalink: /work/
 ---
 
-These projects were created during the undergraduate and graduate courses.
+These projects were developed during the undergraduate and graduate courses.

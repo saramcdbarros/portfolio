@@ -71,6 +71,7 @@ nav {
 		&:hover {
 			color: $accent-color;
 		}
+
 	}
 }
 
@@ -78,7 +79,7 @@ nav {
 	padding: 0 15%;
 	ul {
 		display: flex;
-		flex-wrap: wrap;
+		flex-direction: row;
 		justify-content: space-between;
 	}
 	a {
@@ -97,24 +98,17 @@ main {
 	position: relative;
 	background-color: $light-color;
 }
-.description {
-	padding-top: 70%;
-	.part1 li {
-			list-style-type: none;
-	}
-}
-.container {
-	ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	}
-}
 .container, .description {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: space-between;
+}
+.description {
+	padding-top: 70%;
+	.part1 li {
+			list-style-type: none;
+	}
 }
 .cover {
 	height: 700px;
@@ -142,7 +136,6 @@ main {
 		font-weight: normal;
 	}
 }
-
 .portfmenu {
 	background-color: $background-color;
 	padding: 88px 0;
@@ -151,6 +144,11 @@ main {
 		height: auto;
 	}
 }
+
+/**
+ * Transformation
+ */ 
+ 
 .box {
 	position: relative;
 }
@@ -170,6 +168,7 @@ main {
 	opacity: 1;
 	transform: scale(1.05);
 }
+
 
 /**
 * FOOTER
@@ -219,6 +218,9 @@ footer {
 	}
 	.title {
 		top: 400px;
+	}
+	.portfmenu nav ul {
+		flex-direction: column;
 	}
 }
 
